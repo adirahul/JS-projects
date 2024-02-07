@@ -11,6 +11,6 @@ Short description or overview of the project.
 ## Installation
 
 Instructions on how to install and set up the project locally.
-*git clone https://github.com/adirahul/JS-projects.git
-*cd project_folder
-*open live server
+- git clone https://github.com/adirahul/JS-projects.git
+- cd project_folder
+- open live server
