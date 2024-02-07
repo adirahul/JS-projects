@@ -12,6 +12,6 @@ Short description or overview of the project.
 
 Instructions on how to install and set up the project locally.
 
-https://github.com/adirahul/JS-projects.git
-cd project_folder
-open live server
+  -https://github.com/adirahul/JS-projects.git
+  -cd project_folder
+  -open live server
