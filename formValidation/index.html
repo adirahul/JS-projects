@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form Validation</title>
+  </head>
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+    }
+  </style>
+  <body>
+    <h2>Form Validation</h2>
+    <form id="myForm" >
+      <label id="lblSuccess" style="display: none; color: rgb(4, 130, 4); font-size: small"
+        >*form submitted successfully</label
+      >
+      <label id="lblFailure" style="display: none; color: rgba(255, 0, 0, 0.721); font-size: small"
+        ></label
+      >
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"/>
+      </div>
+      <br />
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    font-family: 'roboto', 'sans-sarif';
+    margin: 0;
+    padding: 0;
+}
+#tabs{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-bottom: 1px solid #000000;
+}
+li{
+    padding: 20px 40px;
+    cursor: pointer;
+}
+li.active{
+    background: #ccc;
+}
+[data-tab-content].active{
+    display: block;
+}
+[data-tab-content]{
+    display: none;
+}

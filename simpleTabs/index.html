@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Simple tabs</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul id="tabs">
+        <li data-tab-target="#home" class="active">Home</li>
+        <li data-tab-target="#about">About</li>
+        <li data-tab-target="#experience">Experience</li>
+        <li data-tab-target="#projects">Projects</li>
+      </ul>
+    </nav>
+    <div class="sections">
+      <div id="home" data-tab-content class="active">
+        <h3>Home section</h3>
+        <p>This text is inside home section</p>
+      </div>
+      <div></div>
+
+      <div id="about" data-tab-content>
+        <h3>About section</h3>
+        <p>about section contains some paragraph</p>
+      </div>
+      <div id="experience" data-tab-content>
+        <h3>Experience section</h3>
+        <p>
+          This section showcases my experience of working in different places
+        </p>
+      </div>
+      <div></div>
+
+      <div id="projects" data-tab-content>
+        <h3>Projects section</h3>
+        <p>Projects that I have build</p>
+      </div>
+      <div></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
